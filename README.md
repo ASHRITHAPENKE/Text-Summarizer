@@ -24,32 +24,82 @@ This is a simple **Text Summarizer** application built using **Streamlit** and t
 
 ## 📥 Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/text-summarizer.git
-cd text-summarizer
-### Step 2: Set Up Virtual Environment (Recommended)
+---
 
-Setting up a virtual environment keeps your project dependencies isolated and avoids version conflicts.
+## 🔧 Setup & Installation
 
-- **For Windows**:
+1. Clone the repository:
     ```bash
-    python -m venv venv
-    venv\Scripts\activate
+    git clone https://github.com/Ashritha-Satya/TextSummarizer.git
+    cd TextSummarizer
     ```
 
-- **For Linux/macOS**:
+2. Create a virtual environment (optional but recommended):
     ```bash
-    python3 -m venv venv
-    source venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate   # On Windows: venv\Scripts\activate
+    ```
+
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Run the application:
+    ```bash
+    streamlit run app.py
     ```
 
 ---
 
-### Step 3: Install Required Libraries
+## 📜 Usage
 
-After activating the virtual environment, install all dependencies using:
+1. Open the app in your browser (usually at `http://localhost:8501`).
+2. Enter or paste text into the input box OR upload a `.txt` file.
+3. Click the "Summarize" button.
+4. View the generated summary along with word count comparison.
 
-```bash
-pip install -r requirements.txt
+---
 
+## 📦 Example Output
+
+**Original Text:**  
+*"Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems."*
+
+**Summary:**  
+*"AI simulates human intelligence using machines."*
+
+---
+
+## 🏅 Future Enhancements
+
+- Allow users to select different summarization models (like T5, BART).
+- Support for multiple file formats (PDF, DOCX).
+- Add multilingual summarization support.
+- Save and download summary feature.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! If you have suggestions or want to improve the project, feel free to fork this repository and raise a pull request.
+
+---
+
+## 📧 Contact
+
+**Developer:** Penke Ashritha Satyasri  
+**GitHub:** [Ashritha-Satya](https://github.com/Ashritha-Satya)  
+**LinkedIn:** [Ashritha Penke](https://www.linkedin.com/in/ashritha-penke-385560259)  
+**Email:** ashrithapenke124@gmail.com
+
+---
+
+## ⚖️ License
+
+This project is licensed under the **MIT License**.  
+Feel free to use, modify, and distribute this project as per the license terms.
+
+---
+
+⭐ **If you like this project, please star the repository!** ⭐
