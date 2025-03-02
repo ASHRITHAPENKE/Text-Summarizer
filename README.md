@@ -94,12 +94,6 @@ Contributions are welcome! If you have suggestions or want to improve the projec
 **Email:** ashrithapenke124@gmail.com
 
 ---
-
-## ⚖️ License
-
-This project is licensed under the **MIT License**.  
-Feel free to use, modify, and distribute this project as per the license terms.
-
 ---
 
 ⭐ **If you like this project, please star the repository!** ⭐
