@@ -4,6 +4,10 @@ os.environ["STREAMLIT_WATCHDOG"] = "false"
 os.environ["STREAMLIT_WATCHFILES_IGNORE"] = "torch"
 os.environ['TRANSFORMERS_NO_ADVISORY_WARNINGS'] = '1'
 os.environ['HF_HUB_DISABLE_SYMLINKS_WARNING'] = '1'
+os.environ["STREAMLIT_WATCHFILES_IGNORE"] = "transformers"
+os.environ["STREAMLIT_SERVER_RUN_ON_SAVE"] = "false"
+os.environ["STREAMLIT_DISABLE_WATCHDOG_WARNING"] = "true"
+os.environ["STREAMLIT_GLOBAL_DISABLEWATCHDOGWARNING"] = "true"
 
 import streamlit as st
 from transformers import pipeline
