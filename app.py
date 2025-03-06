@@ -1,6 +1,7 @@
 import os
 os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
 os.environ["STREAMLIT_WATCHDOG"] = "false"
+os.environ["STREAMLIT_WATCHFILES_IGNORE"] = "torch"
 
 import streamlit as st
 from transformers import pipeline
