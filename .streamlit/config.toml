@@ -1,2 +1,9 @@
 [server]
 runOnSave = false
+
+[runner]
+fastReruns = false
+magicEnabled = false
+
+[global]
+disableWatchdogWarning = true
