@@ -1,5 +1,2 @@
 [server]
 runOnSave = false
-
-[global]
-disableWatchdogWarning = true
