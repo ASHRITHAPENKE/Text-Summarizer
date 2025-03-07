@@ -65,7 +65,8 @@ This is a simple **Text Summarizer** application built using **Streamlit** and t
 
 **Original Text:**  
 *"Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems."*
-![image](https://github.com/user-attachments/assets/cf76f3ba-5154-4adc-8204-36ed50e9abd2)
+![image](https://github.com/user-attachments/assets/50a7cbb9-d0c2-437d-bbb3-ce5b7f2d42b7)
+
 ![image](https://github.com/user-attachments/assets/f61339f6-249c-4791-8ced-a809b1e8137f)
 
 
